@@ -1,0 +1,116 @@
+.destination{
+    text-align: center;
+}
+
+
+.album{
+    text-align: center;
+}
+
+
+.img-200 {
+        width: 600px;
+        height: 500px; /* Maintain aspect ratio */
+    }
+
+    .destination {
+        font-size: 1.5rem;
+        color: #291a86; /* Adjust text color as needed */
+        text-decoration: none; /* Remove underline by default */
+    }
+
+    .destination a {
+        color: #131416; /* Link color */
+        text-decoration: none; /* Remove underline */
+    }
+
+    .destination a:hover {
+        text-decoration: none; /* Ensure no underline on hover */
+    }
+
+    .footer {
+        background-image: url(images/background2.webp);
+        margin-bottom: 0; /* Remove bottom margin */
+        padding-bottom: 20px; /* Optional: Add padding if needed */
+    }
+
+    .form-control{
+        background-color: rgb(185, 163, 163);
+        border-color:rgb(185, 163, 163) ;
+        color: black;
+    }
+
+    /* Default Light Mode */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent for header */
+}
+
+.card {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #d3d3d3 !important; /* Override Bootstrap's bg-dark-subtle */
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #333;
+    color: #f8f9fa;
+}
+
+body.dark-mode header {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+body.dark-mode .card {
+    background-color: #444;
+}
+
+body.dark-mode .footer {
+    background-color: #222 !important;
+}
+
+body.dark-mode .btn-light {
+    background-color: #555;
+    color: #fff;
+    border-color: #555;
+}
+
+body.dark-mode .btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+body.dark-mode .btn-outline-secondary {
+    color: #ccc;
+    border-color: #ccc;
+}
+
+body.dark-mode .nav-link {
+    color: #ccc !important;
+}
+
+body.dark-mode .nav-link.text-secondary {
+    color: #aaa !important;
+}
+
+body.dark-mode .text-body-emphasis {
+    color: #f8f9fa !important;
+}
+
+body.dark-mode .carousel-inner h4 {
+    color: #f8f9fa;
+}
+
+/* Custom class for carousel images */
+.img-200 {
+    max-height: 200px;
+    object-fit: cover;
+}
